@@ -14,13 +14,12 @@ The app deplyed on free hosting , that is netlify  check the demo [here](https:/
 3. useTemplate literals 
 4. set the value of input inside a div , that div is a todo 
 5. return a div very click on  the button 
-6. you can just make 5 todo (role)
-7. make a delete button 
-8. show number of todos after adding each todo 
-9. empty the input 
-10. focus on the input after any creatation
-11.check if the input is empty & set a condition
-12. style the app
+6. make a delete button 
+7. show number of todos after adding each todo 
+8. empty the input 
+9. focus on the input after any creatation
+10.check if the input is empty & set a condition
+11. style the app
 
 
 # problems i face
