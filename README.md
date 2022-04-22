@@ -2,8 +2,8 @@
 a small react app for practice with react hooks and tailwindcss ,
 here is some steps how i started 
 
-# watch the app demo 
-https://todolistforreact.netlify.app
+## watch the app [demo](https://todolistforreact.netlify.app) 
+
 
 
 
@@ -35,7 +35,7 @@ https://todolistforreact.netlify.app
     so for that i decide to set the number of children inside a SetState that called (setCountTodos) 
 
   ## 3- third problem : empty the container of tasks  
-    after creating a clear all button for clear all tasks (todos) so i tried to remove them using ` remove() ` 
+    after creating a clear all button for clear all tasks (todos) so i tried to remove them using remove()  
     and it did't work , then i tried with Array to put all task inside a Array than use map to cleare all buttons 
     but at the end , i used someting simple to cleare it , that is innerHTML .
 
