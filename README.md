@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# ToDo-List-React-App
+a small react app for practice with react hooks and tailwindcss ,
+here is some steps how i started 
+
+
+
+
+# How i started 
+  1- create an input & button
+  2- show the value of input (for a test)
+  3- useTemplate literals 
+  4- set the value of input inside a div , that div is a todo 
+  5- return a div very click on  the button 
+  6- you can just make 5 todo (role)
+  7- make a delete button 
+  8- show number of todos after adding each todo 
+  9- empty the input 
+  10- focus on the input after any creatation
+  11-check if the input is empty & set a condition
+  12- style the app
+
+
+# problems i face
+
+  1- first problem : delete todo btn 
+  
+    ==> for the first time i thought to make a delete button working just put a loop and give
+    to each button an Id and make a function if this button has an id than remove the parent elemen
+    then i used useRef Hooks and i put inside each a todo (task) ref using ### template-string (template literals)
+
+
+  2- second problem : counting the number of todos
+  
+    ==> i create a useState hook after creating a task it will be incresed , it was working good , but 
+    when i delete a task i tried to dicrease the number of task (todos) but it working randomly -1 -3 ... 
+    so for that i decide to set the number of children inside a SetState that called (setCountTodos) 
+
+  3- third problem : empty the container of tasks  
+  
+    ==> after creating a clear all button for clear all tasks (todos) so i tried to remove them using remove() 
+    and it did't work , then i tried with Array to put all task inside a Array than use map to cleare all buttons 
+    but at the end , i used someting simple to cleare it , that is innerHTML .
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
