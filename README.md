@@ -1,26 +1,26 @@
 # ToDo-List-React-App
-a small react app for practice with react hooks and tailwindcss ,
+A small react app for practice with react hooks and tailwindcss ,
 here is some steps how i started 
 
-# watch the app [demo](https://todolistforreact.netlify.app) 
-the app deplyed on free hosting , that is netlify  check the demo [here](https://todolistforreact.netlify.app) 
+# Test the app [demo](https://todolistforreact.netlify.app) 
+The app deplyed on free hosting , that is netlify  check the demo [here](https://todolistforreact.netlify.app) 
 
 
 
 
 # How i started 
-1- create an input & button
-2- show the value of input (for a test)
-3- useTemplate literals 
-4- set the value of input inside a div , that div is a todo 
-5- return a div very click on  the button 
-6- you can just make 5 todo (role)
-7- make a delete button 
-8- show number of todos after adding each todo 
-9- empty the input 
-10- focus on the input after any creatation
-11-check if the input is empty & set a condition
-12- style the app
+1. create an input & button
+2. show the value of input (for a test)
+3. useTemplate literals 
+4. set the value of input inside a div , that div is a todo 
+5. return a div very click on  the button 
+6. you can just make 5 todo (role)
+7. make a delete button 
+8. show number of todos after adding each todo 
+9. empty the input 
+10. focus on the input after any creatation
+11.check if the input is empty & set a condition
+12. style the app
 
 
 # problems i face
