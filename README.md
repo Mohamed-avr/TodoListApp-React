@@ -2,6 +2,9 @@
 a small react app for practice with react hooks and tailwindcss ,
 here is some steps how i started 
 
+# watch the app demo 
+(https://todolistforreact.netlify.app/).
+
 
 
 
@@ -23,24 +26,21 @@ here is some steps how i started
 # problems i face
 
   1- first problem : delete todo btn 
-  
     ==> for the first time i thought to make a delete button working just put a loop and give
     to each button an Id and make a function if this button has an id than remove the parent elemen
     then i used useRef Hooks and i put inside each a todo (task) ref using ### template-string (template literals)
 
 
   2- second problem : counting the number of todos
-  
     ==> i create a useState hook after creating a task it will be incresed , it was working good , but 
     when i delete a task i tried to dicrease the number of task (todos) but it working randomly -1 -3 ... 
     so for that i decide to set the number of children inside a SetState that called (setCountTodos) 
 
   3- third problem : empty the container of tasks  
-  
-    ==> after creating a clear all button for clear all tasks (todos) so i tried to remove them using remove() 
+    ==> after creating a clear all button for clear all tasks (todos) so i tried to remove them using ###remove() 
     and it did't work , then i tried with Array to put all task inside a Array than use map to cleare all buttons 
-    but at the end , i used someting simple to cleare it , that is innerHTML .
+    but at the end , i used someting simple to cleare it , that is ###innerHTML .
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+(https://github.com/facebook/create-react-app).
 
 
