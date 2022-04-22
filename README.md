@@ -2,7 +2,8 @@
 a small react app for practice with react hooks and tailwindcss ,
 here is some steps how i started 
 
-## watch the app [demo](https://todolistforreact.netlify.app) 
+# watch the app [demo](https://todolistforreact.netlify.app) 
+the app deplyed on free hosting , that is netlify  check the demo [here](https://todolistforreact.netlify.app) 
 
 
 
